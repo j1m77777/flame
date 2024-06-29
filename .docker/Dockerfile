@@ -22,7 +22,7 @@ COPY --from=builder /app /app
 
 WORKDIR /app
 
-EXPOSE 5005
+EXPOSE 80
 
 ENV NODE_ENV=production
 ENV PASSWORD=flame_password
